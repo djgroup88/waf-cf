@@ -37,7 +37,7 @@
             console.debug('_turnstileCb called');
         
             turnstile.render('#cf-widget', {
-                sitekey: 'your-token',
+                sitekey: 'your-sitekey',
                 theme: 'dark',
                 callback: function(token) {
                     window.location.href = '/?token=' + token
